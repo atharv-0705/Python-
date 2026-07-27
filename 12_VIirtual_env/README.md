@@ -3,7 +3,7 @@
 pip install virtualenv            
 
 ## Create a virtual environment named '.venv'
-virtualenv .venv                  
+python -m venv .venv                 
 
 ## Linux or MacOS
 source .venv/bin/activate         
