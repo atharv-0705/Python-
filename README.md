@@ -226,13 +226,7 @@ Py_Libraries
 
 ## 🚀 Future Topics
 
-- Regular Expressions
-- SQLite
-- Multithreading
-- Multiprocessing
-- Async Programming
-- Logging
-- Testing
+
 - Flask
 - FastAPI
 - Streamlit
