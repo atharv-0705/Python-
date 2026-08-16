@@ -5,15 +5,15 @@ but with different behaviors.'''
 
 
 class Car:
-    def __init__(self, brand,model): #CONSTRACTOR
+    def __init__(self, brand,model):
         self.__brand = brand
         self.model = model
         
     def get_brand(self):
         return self.__brand + " !" 
         
-    def full_name(self): #FUNCTIONARTY
-        return f"{self.brand} {self.model}"
+    def full_name(self):
+        return f"{self.__brand} {self.model}"
     
     def fuel_type(self):
         return "Petrol or Diesel"
@@ -32,8 +32,4 @@ print(my_Tesla.fuel_type())
 
 safari = Car("Tata", "Safari")
 print(safari.fuel_type())
-    
-# my_car = Car("Toyota", "Corolla")
-# print(my_car.brand)
-# print(my_car.model)
-# print(my_car.full_name())
+   

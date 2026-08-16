@@ -4,9 +4,8 @@
 
 class Car:
     total_car = 0
-    
-    
-    def __init__(self, brand,model): #CONSTRACTOR
+
+    def __init__(self, brand,model): 
         self.__brand = brand
         self.model = model
         Car.total_car += 1
@@ -14,8 +13,8 @@ class Car:
     def get_brand(self):
         return self.__brand + " !" 
         
-    def full_name(self): #FUNCTIONARTY
-        return f"{self.brand} {self.model}"
+    def full_name(self): 
+        return f"{self.__brand} {self.model}"
     
     def fuel_type(self):
         return "Petrol or Diesel"
@@ -29,11 +28,8 @@ class ElectricCar(Car):
         return "Electric charge"
    
 my_Tesla = ElectricCar("Tesla", "Model S", "85kWh")
-# print(my_Tesla.__brand)
-print(my_Tesla.fuel_type())
-
 Car("Tata", "Safari")
 Car("Tata", "Nexon")
-
+ElectricCar("Tesla","Model x", "90kWh")
 
 print(Car.total_car)
