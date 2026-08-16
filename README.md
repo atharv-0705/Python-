@@ -10,6 +10,39 @@ This repository contains my Python learning notes, practice programs, mini-proje
 
 ---
 
+## ⚙️ Installation & Setup
+
+To get started and install all the required Python libraries for this repository, use the `requirements.txt` file:
+
+1. **Create a virtual environment:**
+   ```bash
+   python -m venv .venv
+   ```
+
+2. **Activate the virtual environment:**
+   * **Windows (PowerShell):**
+     ```powershell
+     .venv\Scripts\Activate.ps1
+     ```
+   * **macOS/Linux:**
+     ```bash
+     source .venv/bin/activate
+     ```
+
+3. **Install the dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### 📦 Required Modules Listed in `requirements.txt`:
+* **`matplotlib`**: Data visualization and plotting charts
+* **`numpy`**: Scientific computing and multi-dimensional array operations
+* **`pandas`**: Data manipulation, cleaning, and CSV analysis
+* **`streamlit`**: Building interactive web applications (e.g. Student Info App)
+* **`requests`**: Fetching resources from external REST APIs
+
+---
+
 # 📂 Topics Covered
 
 ## 1. Python Basics
