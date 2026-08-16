@@ -1,10 +1,10 @@
 #  My Python Learning Journey 🐍
 
-This repository contains my Python learning notes, practice programs, mini-projects, and hands-on exercises while following the **"Chai with Python"** course. It serves as my personal reference and revision guide, covering Python fundamentals to intermediate concepts with practical implementation.
+This repository contains my Python learning notes, practice programs, mini-projects, and hands-on exercises while following the **"Chai with Python + Bro Code"** course. It serves as my personal reference and revision guide, covering Python fundamentals to intermediate concepts with practical implementation.
 
 ## 📚 Course
 
-- **Learning Source:** Chai with Python
+- **Learning Source:** Chai with Python + Bro Code
 - **Language:** Python 3.x
 - **Goal:** Build a strong Python foundation for AI/ML, Data Science, Automation, Backend Development, and Problem Solving.
 
@@ -259,10 +259,8 @@ Py_Libraries
 
 ## 🚀 Future Topics
 
-
 - Flask
 - FastAPI
-- Streamlit
 - Machine Learning
 - Web Scraping
 
@@ -270,6 +268,6 @@ Py_Libraries
 
 ## ⭐ Credits
 
-This repository is created as part of my Python learning journey while studying from **Chai with Python**. All practice code, notes, and projects are implemented by me for learning, revision, and future reference.
+This repository is created as part of my Python learning journey while studying from **Chai with Python + Bro Code**. All practice code, notes, and projects are implemented by me for learning, revision, and future reference.
 
 Happy Coding! ☕🐍
